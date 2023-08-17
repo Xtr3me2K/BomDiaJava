@@ -1,10 +1,10 @@
 let saudacao = "";
-const horaAtual = new Date().getHours();
+const hora = new Date().getHours();
 const imagem = document.getElementById("imagem");
 
-if (horaAtual >= 6 && horaAtual < 12) {
+if (hora >= 6 && hora < 12) {
     saudacao = "Bom dia!";
-} else if (horaAtual >= 12 && horaAtual < 18) {
+} else if (hora >= 12 && hora < 18) {
     saudacao = "Boa tarde!";
 } else {
     saudacao = "Boa noite!";
